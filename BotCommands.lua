@@ -290,7 +290,7 @@ local function OnBotCommandHandlerTwo(event, player, command)
     end
 
     local playerLevel = player:GetLevel()
-    local level = math.floor(playerLevel / 10) * 10
+    local level = math.floor(playerLevel / 5) * 5
     if level < 10 then level = 10 end  
 
     local role = args[3]
